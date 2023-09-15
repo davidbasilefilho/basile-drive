@@ -84,7 +84,7 @@ function LogIn() {
                     <hr className="my-4" />
 
                     <p className="w-full inline-block text-center">
-                        Don't have an account?{" "}
+                        Don&apos;t have an account?{" "}
                         <Link href="/signup" className="text-blue-700">
                             Sign Up
                         </Link>
