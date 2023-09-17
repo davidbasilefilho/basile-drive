@@ -7,7 +7,7 @@
         "build": "next build",
         "start": "next start",
         "deploy-dev": "firebase deploy --project basile-drive-dev",
-        "deploy-prod": "firebase deploy --project basile-drive-prod",
+        "deploy-prod": "firebase deploy --project basile-drive",
         "lint": "next lint"
     },
     "dependencies": {
