@@ -12,7 +12,7 @@
     }
 
     h2 {
-        @apply text-xl font-semibold;
+        @apply text-xl;
     }
 
     h3 {

@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import { AuthProvider, useAuth } from "@/context/AuthContext";
-import { Card } from "@/components/Card";
 import Link from "next/link";
+import { Navbar } from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +18,7 @@ function Home(): JSX.Element {
     return (
         <>
             {auth?.currentUser ? (
-                <p>Hello!</p>
+                <Navbar />
             ) : (
                 <div className="flex flex-col gap-3 h-screen items-center justify-center">
                     <p>It looks like you are not logged in!</p>
